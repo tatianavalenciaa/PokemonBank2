@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    font-family:'Poppins', sans-serif;
+}
+
+.navbar a {
+     font-weight: 600;
+     font-size: 18px;
+}
+
+.mi-contenedor-login { 
+    padding: 80px 0;
+}
+
+.mi-contenedor { 
+    padding: 80px 0;
+    margin-top: 250px;
+}
+
+.card img { 
+    width: 150px;
+    height: 150px;
+}
+
+.card-title {
+    padding: 5%;
+}
+
+footer {
+    margin-top: auto;
+}
+
+@media(max-width: 767px) { 
+    .mi-contenedor-login { 
+        padding: 30px 0 0 0;
+    }
+    .mi-contenedor { 
+        padding: 30px 0 0 0;
+    }
+}
